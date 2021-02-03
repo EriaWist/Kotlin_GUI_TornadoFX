@@ -33,3 +33,24 @@ compileKotlin {
 ```
 因為版本現在jvm已經到15以及x.y.z是看TornadoFX目前版本為1.7.20
 [TornadoFX版本](https://tornadofx.io/)
+
+接下來建立[間單頁面測試](https://edvin.gitbooks.io/tornadofx-guide/content/part1/3_Components.html)
+
+```
+package com.eria.app //這是我的package
+
+import tornadofx.*
+
+class MyApp: App(MyView::class)
+
+fun main(args: Array<String>) {
+    launch<MyApp>(args)
+}
+
+class MyView: View() {
+    override val root = vbox {
+        button(" 123 ")
+        label(" 456 ")
+    }
+}
+```
