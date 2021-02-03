@@ -1,5 +1,5 @@
 # Kotlin_GUI_TornadoFX
-## (建立Kotlin應用)[https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html]
+## [gradle建立Kotlin應用](https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html)
 ```
 $ mkdir demo
 $ cd demo
