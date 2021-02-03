@@ -31,6 +31,5 @@ compileKotlin {
 }
 
 ```
-因為版本現在已經到15以及x.y.z是看TornadoFX目前版本為1.7.20
-
+因為版本現在jvm已經到15以及x.y.z是看TornadoFX目前版本為1.7.20
 [TornadoFX版本](https://tornadofx.io/)
