@@ -12,3 +12,25 @@ Select build script DSL:
 Enter selection (default: Groovy) [1..2] 1
 我們選擇Groovy
 ```
+## [TornadoFX](https://edvin.gitbooks.io/tornadofx-guide/content/part1/2_Setting_Up.html)
+```
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+javafx {
+    version = "11.0.2"
+    modules = ['javafx.controls', 'javafx.graphics']
+}
+
+dependencies {
+    implementation 'no.tornado:tornadofx:1.7.20'
+}
+compileKotlin {
+    kotlinOptions.jvmTarget = "15"
+}
+
+```
+因為版本現在已經到15以及x.y.z是看TornadoFX目前版本為1.7.20
+
+[TornadoFX版本](https://tornadofx.io/)
