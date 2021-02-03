@@ -26,8 +26,6 @@ application {
     // Define the main class for the application.
     mainClass = 'com.eria.app.AppKt'
 }
-tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
-    kotlinOptions {
-        jvmTarget = "15"
-    }
+compileKotlin {
+    kotlinOptions.jvmTarget = "15"
 }
