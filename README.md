@@ -36,7 +36,7 @@ compileKotlin {
 
 接下來建立[間單頁面測試](https://edvin.gitbooks.io/tornadofx-guide/content/part1/3_Components.html)
 
-```
+``` Kotlin
 package com.eria.app //這是我的package
 
 import tornadofx.*
